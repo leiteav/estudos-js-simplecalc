@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(165, 220, 173);
+    margin: 0 auto;
+}
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 496px;
+    height: 496px;
+    background-color: rgb(197, 42, 71);
+    border-radius: 8px;
+    border: 2px teal solid;
+}
+#result {
+    width: 360px;
+    height: 46px;
+}
+input {
+    height: 32px;
+    width: 120px;
+    margin: 16px 0px;
+    border: 2px rgb(165, 220, 173) solid;
+    border-radius: 8px;
+    background-color: rgb(165, 220, 173);
+    font-size: 16px;
+}
+div:last-child input:last-child {
+    background-color: teal;
+    border-color: teal;
+}
+@media screen and (max-width: 750px) {
+    .container {
+        width: 360px;
+    }
+
+    #result {
+        width: 288px;
+    }
+
+    input {
+        width: 96px;
+    }
+}

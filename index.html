@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calc</title>
+    <link rel="stylesheet" href="style.css">
+    <script refer src="script.js"></script>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <form name="calculator">
+                <input type="text" id="result">
+                <div>
+                    <input type="button" value="9" onclick="insert(value)">
+                    <input type="button" value="8"  onclick="insert(value)">
+                    <input type="button" value="7"  onclick="insert(value)">
+                </div>
+                <div>
+                    <input type="button" value="6" onclick="insert(value)">
+                    <input type="button" value="5" onclick="insert(value)">
+                    <input type="button" value="4" onclick="insert(value)">
+                </div>
+                <div>
+                    <input type="button" value="3" onclick="insert(value)">
+                    <input type="button" value="2" onclick="insert(value)">
+                    <input type="button" value="1" onclick="insert(value)">
+                </div>
+                <div>
+                    <input type="button" name="subtract" value="-" onclick="insert(value)">
+                    <input type="button" name="multiplication" value="*" onclick="insert(value)">
+                    <input type="button" name="sum" value="+" onclick="insert(value)">
+                </div>
+                <div>
+                    <input type="reset" value="C">
+                    <input type="button"value="=" onclick="calc()">
+                </div>
+            </form>
+        </section>
+    </main>
+    <!-- by Github @leiteav -->
+</body>
+
+</html>
